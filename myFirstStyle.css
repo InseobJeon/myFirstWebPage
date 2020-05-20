@@ -1,0 +1,70 @@
+.title {
+    /*제목에만 들어가는 스타일이라 class 가 아닌 id 로 만들었습니다*/
+    width: auto;
+    height: 300;
+    margin: 50px 0px 10px 0px;
+
+    font-size: 700%;
+    text-align: center;
+
+    position: relative;
+    z-index: 1;
+  }
+
+.title .backGround {
+    /*제목의 뒷배경만 따로 투명 처리하기 위해 만들었습니다*/
+    background-color: rgb(25, 65, 117);
+
+    width: 75%;
+    height: 100%;
+    margin-left: 12.5%;
+
+    position: absolute;
+    z-index: -1;
+}
+
+/*hr {
+    가로줄 삽입은 이런 느낌으로 가져가고 싶어서 따로 스타일링 했습니다
+    width:75%;
+    text-align:center;
+}
+*/
+
+h1 {
+    /*h1의 경우 panton 의 2020 cobalt blue 로 background를 잡았습니다
+      그리고 또 가독성을 살리기 위해 글씨는 흰 색으로 처리하였습니다*/
+
+    margin: 50px 200px 30px 200px;
+    font-size: 200%;
+    text-align: left;
+
+    /*cobalt blue rgb = 25 / 65 / 117*/
+    background-color: rgb(25, 65, 117);
+    color: whitesmoke;
+}
+
+li {
+    font-weight: bold;
+    margin: 10px 200px;
+    font-size: 150%;
+    text-align: left;
+}
+
+div {
+    margin: 10px 150px 10px 200px;
+    text-align: left;
+    font-size: 130%;
+}
+
+.endBracket {
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: rgb(25, 65, 117);
+
+}
+
+
+  
